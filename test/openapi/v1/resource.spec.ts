@@ -1,4 +1,4 @@
-import { getURL } from '@src/openapi/v1/resource';
+import { getURL } from '@src/openapi/v2/resource';
 
 describe('resource测试', () => {
   // 可以将resource中的变量导出 在此使用

@@ -1,5 +1,5 @@
 import { versionMapping } from '@src/openapi/openapi';
-import { apiVersion, OpenAPI, v1Setup } from '@src/openapi/v1/openapi';
+import { apiVersion, OpenAPI, v1Setup } from '@src/openapi/v2/openapi';
 
 describe('openapi测试', () => {
   test('【 v1Setup方法 】=== 注册全局api', () => {

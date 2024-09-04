@@ -1,4 +1,4 @@
-import { OpenAPI } from './v1/openapi';
+import { OpenAPI } from './v2/openapi';
 
 export const versionMapping = Object.create(null);
 

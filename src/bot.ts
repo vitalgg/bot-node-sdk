@@ -1,11 +1,11 @@
-import { apiVersion, OpenAPI, v1Setup } from '@src/openapi/v1/openapi';
+import { apiVersion, OpenAPI, v2Setup } from '@src/openapi/v2/openapi';
 import { versionMapping } from '@src/openapi/openapi';
 import { APIVersion, Config } from './types/openapi';
 import { GetWsParam } from '@src/types';
 import WebsocketClient from './client/client';
 
 // 注册v1接口
-v1Setup();
+v2Setup();
 
 let defaultImpl = versionMapping[apiVersion] as typeof OpenAPI;
 

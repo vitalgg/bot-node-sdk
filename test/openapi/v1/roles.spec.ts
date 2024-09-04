@@ -1,4 +1,4 @@
-import { defaultColor } from '@src/openapi/v1/role';
+import { defaultColor } from '@src/openapi/v2/role';
 import { client, REQUEST_SUCCESS_CODE, guildID, REQUEST_SUCCESS_CODE_WITH_NO_CONTENT } from '../config';
 
 describe('roles测试', () => {

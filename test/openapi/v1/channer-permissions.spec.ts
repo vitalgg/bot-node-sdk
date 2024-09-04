@@ -1,4 +1,4 @@
-import { UpdateChannelPermissions } from '@src/openapi/v1/channel-permissions';
+import { UpdateChannelPermissions } from '@src/openapi/v2/channel-permissions';
 import {
   client,
   secretChannelID,

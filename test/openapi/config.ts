@@ -1,5 +1,5 @@
 import { createWebsocket } from '@src/bot';
-import { OpenAPI } from '@src/openapi/v1/openapi';
+import { OpenAPI } from '@src/openapi/v2/openapi';
 import {
   apiTestConfig,
   API_REQUEST_SUCCESS_CODE,
